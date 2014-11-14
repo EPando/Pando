@@ -1,0 +1,56 @@
+cin>>more;
+ while(more=="si")
+ {
+   cout<<"\n";
+   cout<<"\n Bienvenido para empezar necesito que vayas introduciendo los elementos del universo.";
+   cout<<"\n";
+   cout<<"\n Escribe los elementos del universo: ";
+   cin>>elu[eu];
+   eu=eu+1;
+   cout<<"\n Mas elementos (si/no) ";
+   cin>>more;
+ }
+
+
+ cout<<"\n Aqui estan tus conjuntos: ";
+ cout<<"\n";
+ for(vn=0;vn<=conju;vn++)
+ {
+    cout<<"\n El conjunto "<<(v+1)<<" tiene estos conjuntos: ";
+    for(vi=0;vi<=euler;vi++)
+    {
+    cout<<"\n";
+    cout<<venn[vn][vi];
+    cout<<"\n";
+    }
+    v=v+1;
+ }
+
+if(operacion==2)
+{
+
+
+}
+ 
+if(operacion==3)
+{
+
+
+} 
+ 
+if(operacion==4)
+{
+
+
+} 
+
+if(operacion==5)
+{
+
+
+}
+
+
+
+  
+}
